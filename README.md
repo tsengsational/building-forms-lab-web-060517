@@ -1,4 +1,4 @@
-# Set List Lab
+# Set List Lab 
 
 ## Objectives
 1. Use forms to create new elements and update the store.
@@ -14,7 +14,7 @@ The createStore method and some basic setup has already been implemented for you
 
 ## Instructions
 
-1. You will need to write the `BandInput` component. The component should have a form with a text input and submit button. We would like to update the *component's* state each time the user types a new character in the input. However, we only update the store's state when the user hits the submit button. 
+1. You will need to write the `BandInput` component. The component should have a form with a text input and submit button. We would like to update the *component's* state each time the user types a new character in the input. However, we only update the store's state when the user hits the submit button.
   * Note: To have access to the store's dispatch method, we pass through the entire store as a prop.
 
 2. You will need to write the `Bands` component. This component should display a ul with a list element for each of the bands in the store's state. Each list element should have text with the corresponding name of the band.
